@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cinzel', 'Playfair Display', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0c0e;
+    color: #f3f1ec;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Custom Gold Gradient & Glow */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5dfa2 0%, #d4af37 50%, #aa820a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121214;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2a2e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Smooth behavior */
+html {
+  scroll-behavior: smooth;
+}

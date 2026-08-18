@@ -1,0 +1,6 @@
+{
+  "name": "SHOE CASA - Premium Footwear Faisalabad",
+  "description": "Luxury handcrafted footwear store in Faisalabad, Pakistan. Men and women leather shoes, loafers, chappals, and sandals with direct WhatsApp ordering and nationwide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
